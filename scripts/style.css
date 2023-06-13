@@ -25,11 +25,22 @@
     width: 100%;
   }
 
-  iframe {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
+  .video-container { 
+    position: relative; 
+    margin: 2cqb;
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
   }
+
+.video-container iframe, .video-container object, .video-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
