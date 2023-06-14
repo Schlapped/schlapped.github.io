@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "schlapped.github.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "schlapped.github.io"
+	}
+}
